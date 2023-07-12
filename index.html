@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Bin Packing Animation</h1>
+    <div id="container"></div>
+    <div class="controls">
+        <input type="text" id="inputBinSize" placeholder="Enter bin size">
+        <input type="text" id="inputItemSizes" placeholder="Enter item sizes (comma-separated)">
+        <button onclick="runBestFit()">Best Fit</button>
+        <button onclick="runBestFitDecreasing()">Best Fit Decreasing</button>
+        <button onclick="runFirstFit()">First Fit</button>
+        <button onclick="runFirstFitDecreasing()">First Fit Decreasing</button>
+        <button onclick="reset()">Reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
